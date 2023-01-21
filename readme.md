@@ -46,20 +46,20 @@ tasks are comparable.  Here are the tasks:
    Show below, in _block quote_, what does it print.
    ```
    $ git status
-On branch main
-Your branch is up to date with 'origin/main'.
+    On branch main
+    Your branch is up to date with 'origin/main'.
 
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
+    Changes not staged for commit:
+     (use "git add <file>..." to update what will be committed)
+     (use "git restore <file>..." to discard changes in working directory)
         modified:   readme.md
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
+    Untracked files:
+     (use "git add <file>..." to include in what will be committed)
         books.md
 
-no changes added to commit (use "git add" and/or "git commit -a")
-```
+    no changes added to commit (use "git add" and/or "git commit -a")
+    ```
    
    Explain, in plain text, what does it mean.
    
@@ -75,6 +75,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 7. Was your add successful?  Check status again!  Explain what do you
    see.
+   
+  
    Now, the branch is still up to date and the status of the files are showing the changes are ready to be committed. 
    
 8. Now **commit** your changes (see [course book
@@ -88,12 +90,12 @@ no changes added to commit (use "git add" and/or "git commit -a")
    command(s) as a code block and explain what you see!
    ```
    $ git status
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
+    On branch main
+    Your branch is ahead of 'origin/main' by 1 commit.
+    (use "git push" to publish your local commits)
 
-nothing to commit, working tree clean
-```
+    nothing to commit, working tree clean
+  ```
   This is showing that all the changes are up to date on the localized version of the lab, and now need to be updated to be in sync with the version on Github, but shows the commit was successful. 
    
 10. Now **push** your changes to Github (see [course book 4.4.5](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-pushing)).  You may
