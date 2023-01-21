@@ -23,6 +23,10 @@ tasks are comparable.  Here are the tasks:
    book 4.3.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-getting-creating)).
    Write the command you
    used underneath in a code block.
+   ```
+   git clone https://github.com/cabrahams/lab2-git-markdown/git
+   ```
+   
    
 3. **add a new file** "books.md" to the repo.  You can use RStudio
    (file -> new file -> markdown file), or any other tool you find
