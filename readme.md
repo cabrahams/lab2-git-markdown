@@ -15,6 +15,9 @@ tasks are comparable.  Here are the tasks:
    ```
    cd Desktop/school/info201/labs
    ```
+   ```
+   cd OneDrive/UW/INFO201/labs
+   ```
 
 1. **fork** this repository on Github under your user name (see
    [course book 4.6.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#forking-and-cloning)).
@@ -41,23 +44,57 @@ tasks are comparable.  Here are the tasks:
 5. check **git status** (see [course book
    4.4.1](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-situational-awareness)).
    Show below, in _block quote_, what does it print.
+   ```
+   $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   readme.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        books.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
    
    Explain, in plain text, what does it mean.
+   
+   This means that I have to add the files to make sure the changes will be saved.
    
 6. **add** the new file to the repository (see [course book
   4.4.3](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-adding)).
   Show your command (as a
   code block).
+  ```
+  git add books.md
+  ```
 
 7. Was your add successful?  Check status again!  Explain what do you
    see.
+   Now, the branch is still up to date and the status of the files are showing the changes are ready to be committed. 
    
 8. Now **commit** your changes (see [course book
    4.4.4](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-committing)). 
    Put your command underneath in a code block.
+   ```
+   git commit -am "lab 2 first commit"
+   ```
    
 9. Was your commit successful?  How can you check it?  Show your
    command(s) as a code block and explain what you see!
+   ```
+   $ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+```
+  This is showing that all the changes are up to date on the localized version of the lab, and now need to be updated to be in sync with the version on Github, but shows the commit was successful. 
    
 10. Now **push** your changes to Github (see [course book 4.4.5](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-pushing)).  You may
    need to create access token before you are able to push.
