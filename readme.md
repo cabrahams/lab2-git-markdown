@@ -95,7 +95,7 @@ tasks are comparable.  Here are the tasks:
     (use "git push" to publish your local commits)
 
     nothing to commit, working tree clean
-  ```
+   ```
   This is showing that all the changes are up to date on the localized version of the lab, and now need to be updated to be in sync with the version on Github, but shows the commit was successful. 
    
 10. Now **push** your changes to Github (see [course book 4.4.5](https://faculty.washington.edu/otoomet/info201-book/git-basics.html#git-basics-working-pushing)).  You may
